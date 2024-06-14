@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: cemter;
+    margin-left: 60px;
+    margin-right: 70px;
+    padding: 20px;
+    font-weight: 100px;
+}
+.left-span{
+    margin-right: auto;
+}
+#main-div{
+    width: 1300px;
+    border: 3px solid black;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+.right-span{
+    margin-left: 10px; /* adjust the margin as needed*/
+    margin-right: 50px;
+    padding-bottom: -16px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+section{
+    text-align: center;
+    height: 20%;
+    background-color: aliceblue;
+}
+.first-container{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.left-span_2{
+    margin-right: auto;
+    margin-left: 100px;
+    padding-left: 20px;
+    border-right: 3px solid rgb(95, 93, 93);
+}
+.center-span{
+    margin: 0 auto;
+    margin-left: 20px;
+    gap: -15px;
+}
+.right-span_2{
+    margin-right: 100px;
+    border-left: 3px solid rgb(95, 92, 92);
+    padding-right: 30px;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: -10px;
+}
+h2{
+    font-size: 23px;
+} 
+.second-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-span_3{
+    background-color: black;
+    color: white;
+    width: 700px;
+    height: 150px;
+    margin-right: 20px;
+}
+.center-span_3{
+    background-color: rgb(153, 151, 151);
+    width: 700px;
+    height: 150px;
+}
+.right-span_3{
+    margin-left: 10px; /* adjust the margin as needed*/ 
+    border: 3px solid black;
+    width: 500px;
+    height: 150px;
+    background-color: white;
+}
+img{
+    width: 900;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+   box-shadow:  00px 00px 20px 10px rgb(97, 95, 95);
+}
+footer{
+    background-color: rgb(63, 58, 58);
+    color: white ;
+    text-align: center;
+    height: 100px;
+}
+p{
+    margin-bottom: 14px;
+}
